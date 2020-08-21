@@ -15,5 +15,9 @@ module.exports = {
       password: '1234',
       database: 'test_allen_real_estates',
     },
+  },
+  production: {
+    client: 'pg',
+    connection: process.env.DATABASE_URL
   }
 };
